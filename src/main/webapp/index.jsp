@@ -31,7 +31,7 @@
             <p>3. Дождитесь ответа.</p>
             <p>
             <ul id="links">
-                <li><a class="pointer" href="https://github.com/PonomarevIvan2003/web1">Исходный код</a></li>
+                <li><a class="pointer" href="https://github.com/PonomarevIvan2003/web2">Исходный код</a></li>
             </ul>
             </p>
         </td>
