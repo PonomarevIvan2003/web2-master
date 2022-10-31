@@ -81,7 +81,8 @@
                     <text x="162" y="204">-R/2</text>
                     <text id="nameY_2" x="162" y="254">-R</text>
                     <c:forEach items="${collection}" var="col">
-                        <circle class="shot" cx="${150 + 50 * col.getX()}" cy="${150 - 50 * col.getY()}" r="3"
+                        <circle class="shot" cx="${150 + 50 * 2/col.getR() * col.getX()}"
+                                cy="${150 - 50 * 2/col.getR() * col.getY()}" r="2"
                                 fill="red" stroke-width="0"></circle>
                     </c:forEach>
                 </svg>

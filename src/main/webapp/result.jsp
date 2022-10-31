@@ -37,8 +37,7 @@
     </tr>
     <tr>
         <td>
-            <button id="clear2" onClick="window.location.replace('http://localhost:8080/webchik-1.0-SNAPSHOT/');" type="clean_button" onclick="">Main page</button>
-<%--            <button id="clear2" onClick="window.location.replace('./..');" type="clean_button" onclick="">Main page</button> --%>
+            <button id="clear2" onClick="window.location.replace('./..');" type="clean_button" onclick="">Main page</button>
         </td>
     </tr>
     </tbody>

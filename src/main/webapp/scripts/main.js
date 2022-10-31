@@ -75,17 +75,6 @@ function makeDot(){
     container.appendChild(circle);
 }
 
-// function moveDots(){
-//     let cur = document.querySelector('input[name="r-value"]').value;
-//     let shots = document.querySelectorAll('.shot');
-//     shots.forEach( (shot) => {
-//         let cx = shot.getAttribute('cx');
-//         let cy = shot.getAttribute('cy');
-//         shot.setAttributeNS(null, 'cx', (cx - 150)*prev/cur + 150);
-//         shot.setAttributeNS(null, 'cy', 150 - (150 - cy)*prev/cur);
-//     });
-//     prev = cur;
-// }
 
 function moveDot(prev){
     let cur = 1;
@@ -113,7 +102,7 @@ function cleanTable(){
     }
 }
 function changingPlot() {
-    let r = parseFloat(document.getElementById('form:r-value').value) * 30;
+    let r = parseFloat(document.getElementById('form: r-value').value) * 30;
     $('#circleX_1').attr('cx', 150 - r);
     $('#circleX_2').attr('cx', 150 - r / 2);
     $('#circleX_3').attr('cx', 150 + r / 2);
