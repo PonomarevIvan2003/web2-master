@@ -117,7 +117,7 @@
                 <br>
                 <div class="y-value">
                     <label for="y-value" class="input-label">Введите Y - значение из интервала (-5; 5): </label><br>
-                    <input type="text" id="y-value" name="y-value" placeholder="Enter Y">
+                    <input type="text" id="y-value" name="y-value" placeholder="Enter Y" maxlength="10">
                 </div>
                 <br>
 
